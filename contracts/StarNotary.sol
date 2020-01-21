@@ -15,10 +15,15 @@ contract StarNotary is ERC721 {
     // name: Is a short name to your token
     // symbol: Is a short string like 'USD' -> 'American Dollar'
     // Token name
-    string private name;
+    string public tokenname;
 
     // Token symbol
-    string private symbol;
+    string public tokensymbol;
+
+    constructor (string memory _name, string memory _symbol) public {
+        tokenname = _name;
+        tokensymbol = _symbol;
+    }
 
     // mapping the Star with the Owner Address
     mapping(uint256 => Star) public tokenIdToStarInfo;
