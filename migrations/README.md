@@ -1,0 +1,5 @@
+Truffle v5.1.9-nodeLTS.0 (core: 5.1.8)
+OpenZeppelin version - 6.13.6 
+ERC-721 Token Name - "Universe Manager"
+ERC-721 Token Symbol - "UMG"
+“Token Address” on the Rinkeby Network - 0x07842DEd2bd608f5502e221d81c2c48A0Ca95a70
